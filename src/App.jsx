@@ -16,18 +16,19 @@ const App = () => {
   return (
     <div className="bg-black min-h-screen">
       {/* Header Section */}
-      <header className="bg-gray-800 text-white p-4">
-        <nav className="flex justify-between items-center w-full">
-          <div className="text-2xl font-bold text-white">Portfolio</div>
-          <div className="flex space-x-4">
-            <a href="#home" className="hover:underline">Home</a>
-            <a href="#education" className="hover:underline">Education</a>
-            <a href="#skills" className="hover:underline">Tech Skills</a>
-            {/* <a href="#projects" className="hover:underline">Projects</a> */}
-            <a href="#contact" className="hover:underline">Contact</a>
-          </div>
-        </nav>
-      </header>
+<header className="bg-gray-800 text-white p-4">
+  <nav className="flex justify-between items-center w-full">
+    <div className="text-3xl font-bold text-blue-500 hover:text-blue-600">Portfolio</div>
+    <div className="flex space-x-4">
+      <a href="#home" className="hover:text-blue-500 hover:underline">Home</a>
+      <a href="#education" className="hover:text-blue-500 hover:underline">Education</a>
+      <a href="#skills" className="hover:text-blue-500 hover:underline">Tech Skills</a>
+      {/* <a href="#projects" className="hover:text-blue-500 hover:underline">Projects</a> */}
+      <a href="#contact" className="hover:text-blue-500 hover:underline">Contact</a>
+    </div>
+  </nav>
+</header>
+
 
       {/* Welcome Section */}
       <section id="home" className="w-full p-8 flex flex-col md:flex-row items-center">
@@ -180,12 +181,12 @@ const App = () => {
           <h2 className="text-2xl font-bold text-white">Sudarshan Thakare</h2>
           <p className="text-white">Frontend Developer</p>
           <p className="text-white">Excited to connect and discuss how my skills can contribute to your team. Your message is valued and I look forward to the opportunity!</p>
-          <p className="text-white">Email: your-email@example.com</p>
-          <p className="text-white">Address: Your Address</p>
-          <p className="text-white">Phone: Your Phone Number</p>
+          <p className="text-white">Email: sudthakare73.com</p>
+          <p className="text-white">Address: Pune</p>
+          <p className="text-white">Phone: 7499020601</p>
         </div>
         <div className="md:w-1/2 order-1 md:order-2">
-          <form action="submit_form.php" method="post" className="bg-white p-8 shadow-lg rounded-lg">
+          <form action="https://formspree.io/f/meqywbwb" method="post" className="bg-white p-8 shadow-lg rounded-lg">
             <h2 className="text-2xl font-bold mb-4 text-white">Contact With Me</h2>
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
