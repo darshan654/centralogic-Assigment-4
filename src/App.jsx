@@ -43,7 +43,7 @@ const App = () => {
             Looking to work in an organization that can provide a variety of opportunities that allow me to enhance my skills and knowledge while working towards achieving the organizational goals.</p>
         </div>
         <div className="md:w-1/3 flex justify-center md:justify-end">
-          <img src="your-photo.JPG" alt="Sudarshan Thakare" className="rounded-md w-32 md:w-48 mx-auto mb-4" />
+          <img src="./assets/preview.png" alt="Sudarshan Thakare" className="rounded-md w-32 md:w-48 mx-auto mb-4" />
 
         </div>
       </section>
@@ -181,7 +181,7 @@ const App = () => {
       <section id="contact" className="w-full p-4 flex flex-col md:flex-row items-stretch">
   <div className="md:w-1/2 p-4 order-2 md:order-1 flex flex-col justify-between">
     <div className="text-center mb-4">
-      <img src="preview.PNG" alt="Sudarshan Thakare" className="rounded-md w-62 md:w-60 mx-auto mb-2" />
+      <img src="./assets/your-photo.jpg" alt="Sudarshan Thakare" className="rounded-md w-62 md:w-60 mx-auto mb-2" />
       <h2 className="text-2xl font-extrabold text-white mb-2">Sudarshan Thakare</h2>
       <p className="text-lg text-blue-300 mb-2">Frontend Developer</p>
     </div>
