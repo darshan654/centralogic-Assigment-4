@@ -3,7 +3,7 @@ import previewImage2 from '/public/assets/profile2.png';
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="w-full p-4 flex flex-col md:flex-row items-stretch">
+        <section id="contact" className="w-full p-4 flex flex-col md:flex-row items-stretch ">
             <div className="md:w-1/2 p-4 order-2 md:order-1 flex flex-col justify-between">
                 <div className="text-center mb-4">
                     <img src={previewImage2} alt="Sudarshan Thakare" className="rounded-md w-62 md:w-60 mx-auto mb-2" />
@@ -21,7 +21,7 @@ export default function ContactSection() {
             </div>
 
             {/* Form */}
-            <div className="md:w-1/2 order-1 md:order-2">
+            <div className="md:w-1/2 p-4 order-2 md:order-1">
                 <form action="https://formspree.io/f/meqywbwb" method="post" className="bg-white p-6 shadow-lg rounded-lg h-full flex flex-col">
                     <h2 className="text-xl font-bold mb-4 text-gray-800">Contact With Me</h2>
                     <div className="mb-4">
