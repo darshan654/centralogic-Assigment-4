@@ -5,6 +5,7 @@ import FindMeSection from './components/FindMeSection';
 import EducationSection from './components/EducationSection';
 import SkillsSection from './components/SkillsSection';
 import ContactSection from './components/ContactSection';
+import ProjectSection from './components/ProjectSection';
 
 
 const App = () => {
@@ -41,6 +42,8 @@ const App = () => {
       {/* Skills Section */}
       <SkillsSection/>
 
+      {/*ProjectSection*/}
+      <ProjectSection/>
 
       {/* Contact Section */}
       <ContactSection/>

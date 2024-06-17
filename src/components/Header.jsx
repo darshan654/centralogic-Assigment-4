@@ -9,7 +9,7 @@ export default function Header() {
             <a href="#home" className="hover:text-blue-500 hover:underline">Home</a>
             <a href="#education" className="hover:text-blue-500 hover:underline">Education</a>
             <a href="#skills" className="hover:text-blue-500 hover:underline">Tech Skills</a>
-            {/* <a href="#projects" className="hover:text-blue-500 hover:underline">Projects</a> */}
+            <a href="#projects" className="hover:text-blue-500 hover:underline">Projects</a>
             <a href="#contact" className="hover:text-blue-500 hover:underline">Contact</a>
           </div>
         </nav>
