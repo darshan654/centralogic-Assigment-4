@@ -6,7 +6,7 @@ import previewImage1 from '/public/assets/profile1.jpg';
 export default function WelcomeSection() {
 
      //togel words
-  const words = ['a ReactJs Developer.', 'a Frontend Developer.'];
+  const words = ['a ReactJs Developer', 'a Frontend Developer'];
   const typingText = useTypingEffect(words, 150);
 //   const  typingText = 
 
