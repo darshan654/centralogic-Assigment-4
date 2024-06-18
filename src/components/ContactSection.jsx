@@ -17,6 +17,7 @@ export default function ContactSection() {
                     <p className="text-base text-white mb-2"><span className="font-semibold">Email:</span> <a href="mailto:sudthakare73@gmail.com" className="text-blue-300 hover:underline">sudthakare73@gmail.com</a></p>
                     <p className="text-base text-white mb-2"><span className="font-semibold">Address:</span> Pune</p>
                     <p className="text-base text-white"><span className="font-semibold">Phone:</span> <a href="tel:+917499020601" className="text-blue-300 hover:underline">7499020601</a></p>
+                    <p className="text-base text-white"><span className="font-semibold">linkedin:</span> <a href="https://www.linkedin.com/in/sudarshanthakare/" className="text-blue-300 hover:underline">https://www.linkedin.com/in/sudarshanthakare/</a></p>
                 </div>
             </div>
 
