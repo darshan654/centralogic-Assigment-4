@@ -1,4 +1,9 @@
 import React from 'react';
+import ecommerce from '/public/assets/project/ecommerce.png'
+import currency_converter from '/public/assets/project//currency converter.png'
+import Expense_Tracker from '/public/assets/project/Expense Tracker.png'
+import todolist from '/public/assets/project/todolist.png'
+import upcoming from '/public/assets/project/upcoming.png'
 
 const ProjectSection = () => {
     return (
@@ -10,7 +15,7 @@ const ProjectSection = () => {
 
                 {/*Ecommerce web front-end*/}
                 <ProjectCard 
-                    imageSrc="/public/assets/project/ecommerce.png"
+                    imageSrc={ecommerce}
                     title="Ecommerce web front-end"
                     description="A user-friendly and responsive front-end interface for an ecommerce platform enabling seamless browsing, shopping, and checkout experiences."
                     netlifyLink="https://ecommerce-front-end-demo.netlify.app/"  // Replace with actual Netlify link when ready
@@ -18,7 +23,7 @@ const ProjectSection = () => {
                 />
                 {/*Ecommerce */}
                 <ProjectCard 
-                    imageSrc="/public/assets/project/ecommerce.png"
+                    imageSrc={upcoming}
                     title="Up Coming Ecommerce "
                     
                     description="A full-stack MERN (MongoDB, Express.js, React.js, Node.js) ecommerce platform under development."
@@ -38,7 +43,7 @@ const ProjectSection = () => {
 
                 {/*Expense Tracker*/}
                 <ProjectCard
-                    imageSrc="/public/assets/project/Expense Tracker.png"
+                    imageSrc={Expense_Tracker}
                     title="Expense Tracker"
                     description="An application for tracking and managing personal expenses, allowing users to monitor spending and budget effectively."
                     netlifyLink="https://github.com/darshan654/centralogic-Assigment-3/tree/main/Expense-Tracker-main"  // Replace with actual Netlify link when ready
@@ -48,7 +53,7 @@ const ProjectSection = () => {
 
                 {/*todolist*/}
                 <ProjectCard
-                    imageSrc="/assets/project/todolist.png"
+                    imageSrc={todolist}
                     title="To-Do List"
                     description="A project for managing tasks with a user-friendly interface."
                     netlifyLink="https://github.com/darshan654/centralogic-Assigment-2"  // Replace with actual Netlify link when ready
@@ -59,7 +64,7 @@ const ProjectSection = () => {
 
                 {/*currency converter*/}
                 <ProjectCard
-                    imageSrc="/public/assets/project/currency converter.png"
+                    imageSrc={currency_converter}
                     title="Currency Converter"
                     description="A currency converter is a tool that converts the value of one currency into another based on current exchange rates."
                     netlifyLink="https://github.com/darshan654/centralogic-Assigment-6"  // Replace with actual Netlify link when ready
