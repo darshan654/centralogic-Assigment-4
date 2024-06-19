@@ -55,8 +55,8 @@ const ProjectSection = () => {
                     imageSrc={Expense_Tracker}
                     title="Expense Tracker"
                     description="An application for tracking and managing personal expenses, allowing users to monitor spending and budget effectively."
-                    netlifyLink="https://github.com/darshan654/centralogic-Assigment-3/tree/main/Expense-Tracker-main"  // Replace with actual Netlify link when ready
-                    githubLink="https://github.com/darshan654/centralogic-Assigment-3/tree/main/Expense-Tracker-main"  // Replace with actual GitHub link
+                    netlifyLink="https://mini-project-expense-tracker.netlify.app/"  // Replace with actual Netlify link when ready
+                    githubLink="https://github.com/darshan654/centralogic-Assigment-3"  // Replace with actual GitHub link
                 />
 
 
@@ -65,7 +65,7 @@ const ProjectSection = () => {
                     imageSrc={todolist}
                     title="To-Do List"
                     description="A project for managing tasks with a user-friendly interface."
-                    netlifyLink="https://github.com/darshan654/centralogic-Assigment-2"  // Replace with actual Netlify link when ready
+                    netlifyLink="https://mini-project-to-do-list.netlify.app/"  // Replace with actual Netlify link when ready
                     githubLink="https://github.com/darshan654/centralogic-Assigment-2"  // Replace with actual GitHub link
                 />
 
@@ -76,7 +76,7 @@ const ProjectSection = () => {
                     imageSrc={currency_converter}
                     title="Currency Converter"
                     description="A currency converter is a tool that converts the value of one currency into another based on current exchange rates."
-                    netlifyLink="https://github.com/darshan654/centralogic-Assigment-6"  // Replace with actual Netlify link when ready
+                    netlifyLink="https://mini-project-currency-converter.netlify.app/"  // Replace with actual Netlify link when ready
                     githubLink="https://github.com/darshan654/centralogic-Assigment-6"  // Replace with actual GitHub link
                 />
                 {/* Add more ProjectCard components for other projects */}
