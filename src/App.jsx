@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { ThemeProvider } from 'next-themes';
 import Header from './components/Header';
 import WelcomeSection from './components/WelcomeSection';
 import FindMeSection from './components/FindMeSection';
@@ -7,8 +8,9 @@ import SkillsSection from './components/SkillsSection';
 import ContactSection from './components/ContactSection';
 import ProjectSection from './components/ProjectSection';
 
-
 const App = () => {
+
+  // for smooth transision 
   useEffect(() => {
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(anchor => {
@@ -21,35 +23,31 @@ const App = () => {
     });
   }, []);
 
-
- 
-
   return (
-    <div className="bg-black min-h-screen">
-      {/* Header Section */}
-      <Header/>
+    <ThemeProvider attribute="class">
+      <div className="bg-black min-h-screen">
+        {/* Header Section */}
+        <Header/>
 
+        {/* Welcome Section */}
+        <WelcomeSection/>
 
-      {/* Welcome Section */}
-      <WelcomeSection/>
+        {/* Find Me Section */}
+        <FindMeSection/>
 
-      {/* Find Me Section */}
-      <FindMeSection/>
+        {/* Education Section */}
+        <EducationSection/>
 
-      {/* Education Section */}
-      <EducationSection/>
+        {/* Skills Section */}
+        <SkillsSection/>
 
-      {/* Skills Section */}
-      <SkillsSection/>
+        {/* Project Section */}
+        <ProjectSection/>
 
-      {/*ProjectSection*/}
-      <ProjectSection/>
-
-      {/* Contact Section */}
-      <ContactSection/>
-
-
-    </div>
+        {/* Contact Section */}
+        <ContactSection/>
+      </div>
+    </ThemeProvider>
   );
 };
 
