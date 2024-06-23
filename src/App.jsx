@@ -12,16 +12,29 @@ const App = () => {
 
   // for smooth transision 
   useEffect(() => {
+    // Select all anchor elements with href starting with '#'
     const links = document.querySelectorAll('a[href^="#"]');
+    
+    // Add event listener to each anchor element
     links.forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
+        anchor.addEventListener('click', function (e) {
+            // Prevent default navigation behavior
+            e.preventDefault();
+            
+            // Find the target element to scroll to based on href attribute
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            // Scroll to the target element with smooth animation
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         });
-      });
     });
-  }, []);
+}, []);
+
 
   return (
     <ThemeProvider attribute="class">
