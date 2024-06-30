@@ -58,6 +58,14 @@ const ProjectSection = () => {
                     netlifyLink="https://mini-project-expense-tracker.netlify.app/"  // Replace with actual Netlify link when ready
                     githubLink="https://github.com/darshan654/centralogic-Assigment-3"  // Replace with actual GitHub link
                 />
+                {/*Pokemon API*/}
+                <ProjectCard
+                    imageSrc={Expense_Tracker}
+                    title="Pokemon Data Fetcher with Redux Toolkit"
+                    description="A web application that fetches and displays Pokemon data from an API using Redux Toolkit (RTK) and Axios for efficient state management and data fetching."
+                    netlifyLink="https://pokemon-api-rtk-axios.netlify.app/"  // Replace with actual Netlify link when ready
+                    githubLink="https://github.com/darshan654/centralogic-Assigment-7"  // Replace with actual GitHub link
+                />
 
 
                 {/*todolist*/}
