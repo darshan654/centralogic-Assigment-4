@@ -5,6 +5,7 @@ import Expense_Tracker from '/public/assets/project/Expense Tracker.png'
 import todolist from '/public/assets/project/todolist.png'
 import upcoming from '/public/assets/project/upcoming.png'
 import Movie from '/public/assets/project/Movie-search-Web-App.png'
+import pokemon from '/public/assets/project/pokemon.png'
 
 const ProjectSection = () => {
     return (
@@ -50,34 +51,6 @@ const ProjectSection = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 mx-auto max-w-7xl">
 
-                {/*Expense Tracker*/}
-                <ProjectCard
-                    imageSrc={Expense_Tracker}
-                    title="Expense Tracker"
-                    description="An application for tracking and managing personal expenses, allowing users to monitor spending and budget effectively."
-                    netlifyLink="https://mini-project-expense-tracker.netlify.app/"  // Replace with actual Netlify link when ready
-                    githubLink="https://github.com/darshan654/centralogic-Assigment-3"  // Replace with actual GitHub link
-                />
-                {/*Pokemon API*/}
-                <ProjectCard
-                    imageSrc={Expense_Tracker}
-                    title="Pokemon Data Fetcher with Redux Toolkit"
-                    description="A web application that fetches and displays Pokemon data from an API using Redux Toolkit (RTK) and Axios for efficient state management and data fetching."
-                    netlifyLink="https://pokemon-api-rtk-axios.netlify.app/"  // Replace with actual Netlify link when ready
-                    githubLink="https://github.com/darshan654/centralogic-Assigment-7"  // Replace with actual GitHub link
-                />
-
-
-                {/*todolist*/}
-                <ProjectCard
-                    imageSrc={todolist}
-                    title="To-Do List"
-                    description="A project for managing tasks with a user-friendly interface."
-                    netlifyLink="https://mini-project-to-do-list.netlify.app/"  // Replace with actual Netlify link when ready
-                    githubLink="https://github.com/darshan654/centralogic-Assigment-2"  // Replace with actual GitHub link
-                />
-
-
 
                 {/*currency converter*/}
                 <ProjectCard
@@ -87,6 +60,41 @@ const ProjectSection = () => {
                     netlifyLink="https://mini-project-currency-converter.netlify.app/"  // Replace with actual Netlify link when ready
                     githubLink="https://github.com/darshan654/centralogic-Assigment-6"  // Replace with actual GitHub link
                 />
+                {/*Expense Tracker*/}
+                <ProjectCard
+                    imageSrc={Expense_Tracker}
+                    title="Expense Tracker"
+                    description="An application for tracking and managing personal expenses, allowing users to monitor spending and budget effectively."
+                    netlifyLink="https://mini-project-expense-tracker.netlify.app/"  // Replace with actual Netlify link when ready
+                    githubLink="https://github.com/darshan654/centralogic-Assigment-3"  // Replace with actual GitHub link
+                />
+
+
+
+                {/*Pokemon API*/}
+                <ProjectCard
+                    imageSrc={pokemon}
+                    title="Pokemon Data Fetcher with RTK"
+                    description="A web application that fetches and displays Pokemon data from an API using Redux Toolkit (RTK) and Axios for efficient state management and data fetching."
+                    netlifyLink="https://pokemon-api-rtk-axios.netlify.app/"  // Replace with actual Netlify link when ready
+                    githubLink="https://github.com/darshan654/centralogic-Assigment-7"  // Replace with actual GitHub link
+                />
+
+
+
+                {/*todolist*/}
+                <ProjectCard
+                    imageSrc={todolist}
+                    title="To-Do List"
+                    description="A user-friendly application for managing and organizing tasks efficiently, featuring an intuitive interface for easy task  management."
+                    netlifyLink="https://mini-project-to-do-list.netlify.app/"  // Replace with actual Netlify link when ready
+                    githubLink="https://github.com/darshan654/centralogic-Assigment-2"  // Replace with actual GitHub link
+                />
+
+                
+
+
+
                 {/* Add more ProjectCard components for other projects */}
             </div>
         </section>
