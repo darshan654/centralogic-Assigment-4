@@ -13,12 +13,41 @@ export default function ContactSection() {
                 <p className="text-base text-gray-200 mb-4 leading-relaxed">
                     Excited to connect and discuss how my skills can contribute to your team. Your message is valued, and I look forward to the opportunity!
                 </p>
+
+
+
+                {/* my personal details */}
                 <div className="bg-gray-900 p-4 rounded-lg shadow-lg">
-                    <p className="text-base text-white mb-2"><span className="font-semibold">Email:</span> <a href="mailto:sudthakare73@gmail.com" className="text-blue-300 hover:underline">sudthakare73@gmail.com</a></p>
-                    <p className="text-base text-white mb-2"><span className="font-semibold">Address:</span> Pune</p>
-                    <p className="text-base text-white mb-2"><span className="font-semibold">Phone:</span> <a href="tel:+917499020601" className="text-blue-300 hover:underline">7499020601</a></p>
-                    <p className="text-base text-white"><span className="font-semibold">linkedin:</span> <a href="https://www.linkedin.com/in/sudarshanthakare/" className="text-blue-300 hover:underline">https://www.linkedin.com/in/sudarshanthakare/</a></p>
+                    <table className="w-full text-left">
+                        <thead className="sr-only">
+                            <tr>
+                                <th>Label</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className="font-semibold text-white pr-4">Email:</td>
+                                <td><a href="mailto:sudthakare73@gmail.com" className="text-blue-300 hover:underline">sudthakare73@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td className="font-semibold text-white pr-4">Address:</td>
+                                <td className="text-white">Pune</td>
+                            </tr>
+                            <tr>
+                                <td className="font-semibold text-white pr-4">Phone:</td>
+                                <td><a href="tel:+917499020601" className="text-blue-300 hover:underline">7499020601</a></td>
+                            </tr>
+                            <tr>
+                                <td className="font-semibold text-white pr-4">LinkedIn:</td>
+                                <td><a href="https://www.linkedin.com/in/sudarshanthakare/" className="text-blue-300 hover:underline">https://www.linkedin.com/in/sudarshanthakare/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
+
+
             </div>
 
             {/* Form */}
