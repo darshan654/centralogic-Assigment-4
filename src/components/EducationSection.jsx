@@ -24,17 +24,17 @@ export default function EducationSection() {
                 <div className={`p-4 shadow-lg rounded-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
                     <h3 className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Bachelor of Science (B.Sc.) 2022</h3>
                     <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Indira College of Commerce and Science</p>
-                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 86.95%</p>
+                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 86.95 %</p>
                 </div>
                 <div className={`p-4 shadow-lg rounded-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
                     <h3 className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Higher Secondary Certificate (HSC) 2019</h3>
                     <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Kendriya Vidyalaya</p>
-                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 66.80</p>
+                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 66.80 %</p>
                 </div>
                 <div className={`p-4 shadow-lg rounded-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
                     <h3 className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Secondary School Certificate (SSC) 2017</h3>
                     <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Kendriya Vidyalaya</p>
-                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 81.40</p>
+                    <p className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>Score: 81.40 %</p>
                 </div>
             </div>
         </section>
